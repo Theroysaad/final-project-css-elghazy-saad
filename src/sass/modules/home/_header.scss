@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    .navbar-nav{
+        width: 40vw;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .container-fluid{
+        width: 80vw;
+    }
+}
+
+@media (max-width:426px){
+    .nav-button{
+        display: none;
+    }
+    
+}

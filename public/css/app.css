@@ -11856,6 +11856,25 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav .navbar-nav {
+  width: 40vw;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .container-fluid, nav .container-sm, nav .container-md, nav .container-lg, nav .container-xl, nav .container-xxl {
+  width: 80vw;
+}
+
+@media (max-width: 426px) {
+  .nav-button {
+    display: none;
+  }
+}
 h1, .h1 {
   color: red;
 }
