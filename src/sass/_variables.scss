@@ -1,0 +1,15 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+$saad: #1a76d1;
+$saad2: #f9f9f9;
+$rose:#edf2ff;
+
+$custom-colors: (
+    "saad": $saad,
+    "saad2": $saad2,
+    "rose":$rose,
+);
+
+
+$theme-colors: map-merge($custom-colors , $theme-colors)
